@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png") no-repeat fixed center;
+    background-size: cover;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 0px 50px;
+}
+
+.logo{
+    width: 150px;
+}
+
+header button{
+    background-color: red;
+    width: 80px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+header select{
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.027);
+    border-radius: 5px;
+    border: white 2px solid;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscrever{
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin: 100px 30px 0px 30px;
+}
+
+.inscrever h1{
+    font-size: 3.125rem;
+    padding: 10px;
+
+}
+
+.inscrever h2{
+    font-size: 1.25rem;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#email{
+    width: 500px;
+    height: 48px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.inscrever button{
+    background-color: red;
+    width: 180px;
+    height: 48px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+p{
+
+}

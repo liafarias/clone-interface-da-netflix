@@ -1,0 +1,137 @@
+img{
+    width: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo{
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #fff;
+    color: rgba(61, 61, 61, 1);
+}
+
+.menu-principal{
+    margin-right: 35%;
+}
+
+.menu-principal li{
+    margin-left: 40px;  
+}
+
+.menu-secundario{
+    margin-right: 20px;
+}
+
+.menu-secundario li{
+    margin-left: 15px;
+}
+
+.icon-pesquisa, .icon-notification, .icon-menu{
+    width: 25px;
+}
+
+.icon-mini-perfil{
+    width: 30px;
+}
+
+.banner-principal{
+    font-size: 16px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-principal.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.tituloFilme{
+    margin-top: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+    width: 600px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.60);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-right: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+h2{
+    color: white;
+    margin: 10px;
+}
+
+.carrosel{
+ margin-left: 5px;
+}
+
+.carrosel img{
+    height: 130px;
+}
