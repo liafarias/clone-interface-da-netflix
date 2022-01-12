@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 
-form{
+.formulario-login{
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
@@ -35,7 +35,7 @@ form{
     border-radius: 10px;
 }
 
-form h1{
+.formulario-login h1{
     font-size: 2.125rem;
     text-align: left;
     margin-right: 65%;
@@ -73,7 +73,7 @@ form h1{
     margin-right: 10px;
 }
 
-form button{
+.formulario-login button{
     width: 400px;
     height: 38px;
     border: none;
@@ -83,7 +83,7 @@ form button{
     margin-bottom: 25px;
 }
 
-form p{
+.formulario-login p{
     margin-bottom: 30px;
     width: 400px;
     text-align: center;
