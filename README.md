@@ -2,6 +2,8 @@
 <p>Nesse projeto eu fiz a reaplicação da interface de um dos streaming mais famosos do mundo, a netflix, com algumas funcionalidades e animações para deixar o projeto o mais profissional possivel, algumas mudanças ainda estão sendo feitas constantemente para aprimorar cada vez mais o projeto.
 Tecnologias usadas: HTML, CSS, JS e outras.</p>
 <br>
+
+![preview](https://github.com/liafarias/clone-interface-da-netflix/blob/main/img/video-de-apresenta%C3%A7%C3%A3o.gif)
 <p>Veja um video da aplicação <a href="https://cdn.loom.com/sessions/thumbnails/00cd2bf1f2e445faa99c59f8d17c151a-00001.mp4">aqui</a></p>
 
 <h3>📱 Print da Tela<h3>
